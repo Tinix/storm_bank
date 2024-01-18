@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :banaba_bank, BanabaBank.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "password",
   hostname: "localhost",
   database: "banaba_bank_dev",
   stacktrace: true,

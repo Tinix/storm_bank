@@ -1,4 +1,4 @@
-# BanabaBank
+# Storm Bank
 
 To start your Phoenix server:
 
