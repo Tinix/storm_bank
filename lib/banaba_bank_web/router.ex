@@ -7,6 +7,8 @@ defmodule BanabaBankWeb.Router do
 
   scope "/api", BanabaBankWeb do
     pipe_through :api
+
+    get "/", WelcomeController, :index
   end
 
   # Enable LiveDashboard in development
