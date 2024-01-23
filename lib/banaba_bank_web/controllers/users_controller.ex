@@ -1,7 +1,7 @@
 defmodule BanabaBankWeb.UsersController do
   use BanabaBankWeb, :controller
 
-  alias BanabaBankWeb.Users.Create
+  alias BanabaBank.Users.Create
 
   def create(conn, params) do
     params
